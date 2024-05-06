@@ -21,6 +21,7 @@ header p {
 }
 
 .inputSection {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -34,6 +35,24 @@ header p {
 }
 
 #squareSide:focus {
+    border: solid #860A35;
+}
+
+.inputSectionk {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#squareSidek {
+    margin-top: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: solid #860A35;
+    padding: 10px;
+}
+
+#squareSidek:focus {
     border: solid #860A35;
 }
 
@@ -54,4 +73,9 @@ button:hover {
 button:active {
     background-color: #860A35;
     transform: translateY(2px);
+}
+
+.buttons2 {
+    display: flex;
+    flex-direction: column;
 }
